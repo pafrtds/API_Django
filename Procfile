@@ -1,1 +1,1 @@
-web: gunicorn {{venda}}.wsgi
+web: gunicorn gettingstarted.wsgi --log-file -

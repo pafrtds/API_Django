@@ -4,6 +4,5 @@ markdown
 django-filter
 django-cors-headers
 whitenoise
-krb5
 libpq
 psycopg2

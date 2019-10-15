@@ -102,7 +102,7 @@ DEFAULT_CHARSET = 'utf-8'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'ENGINE': 'django.db.backends.postgresql',
 	'NAME': 'API',
 	'USER': 'lucas1',
 	'PASSWORD': '1234',

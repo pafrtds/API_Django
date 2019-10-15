@@ -102,8 +102,12 @@ DEFAULT_CHARSET = 'utf-8'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+	'NAME': 'API',
+	'USER': 'lucas1',
+	'PASSWORD': '1234',
+	'PORT': '',        
+	#'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     }
 }
 
